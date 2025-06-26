@@ -1,23 +1,24 @@
-// import 'package:currency_converter/widgets/state/currencyConverterMaterialPageState.dart';
+import 'package:currency_converter/widgets/state/currency_converter_material_page_state.dart';
 import 'package:flutter/material.dart';
-import '../widgets/bodyWidget.dart';
-import '../widgets/appBarWidget.dart';
 
-// class CurrencyConverterMaterialPage extends StatefulWidget {
-//   const CurrencyConverterMaterialPage({super.key});
-
-//   State createState() => CurrencyConverterMaterialPageState();
-// }
-
-class CurrencyConverterMaterialPage extends StatelessWidget {
+class CurrencyConverterMaterialPage extends StatefulWidget {
   const CurrencyConverterMaterialPage({super.key});
-
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.blueGrey,
-      appBar: AppBarAppBarWidget.appBarWidget,
-      body: BodyWidget.bodyCenterWidget,
-    );
+  State<CurrencyConverterMaterialPage> createState() {
+    print('createState');
+    return CurrencyConverterMaterialPageState();
   }
 }
+
+// class CurrencyConverterMaterialPage extends StatelessWidget {
+//   const CurrencyConverterMaterialPage({super.key});
+
+  // @override
+  // Widget build(BuildContext context) {
+  //   return Scaffold(
+  //     backgroundColor: Colors.blueGrey,
+  //     appBar: AppBarAppBarWidget.appBarWidget,
+  //     body: BodyWidget.bodyCenterWidget,
+  //   );
+  // }
+// }
