@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'textFieldWidget.dart';
-import 'textInputWidget.dart';
-import 'buttonWidget.dart';
+import 'widget/textFieldWidget.dart';
+import 'widget/textInputWidget.dart';
+import 'widget/buttonWidget.dart';
 
 mixin BodyWidget {
   // TextStyle for main text

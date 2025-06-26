@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './inputController.dart';
+import '../controllers/inputController.dart';
 
 mixin ButtonWidget {
   static TextButton buttonWidget = TextButton(

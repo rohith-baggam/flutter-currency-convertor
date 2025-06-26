@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './inputController.dart';
+import '../controllers/inputController.dart';
 
 mixin TextInputWidget {
   static OutlineInputBorder outlineBorder = OutlineInputBorder(
