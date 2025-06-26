@@ -3,7 +3,7 @@ import 'package:currency_converter/widgets/appBarWidget.dart';
 import 'package:currency_converter/widgets/widget/text_field_styling_widget.dart';
 import 'package:currency_converter/widgets/widget/text_input_widget.dart';
 import 'package:flutter/material.dart';
-import '../controllers/inputController.dart';
+import '../controllers/input_controller.dart';
 import '../widget/button_styling_widget.dart';
 
 class CurrencyConverterMaterialPageState
