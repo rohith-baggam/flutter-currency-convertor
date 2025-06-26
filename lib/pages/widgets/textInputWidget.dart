@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './inputController.dart';
 
 mixin TextInputWidget {
   static OutlineInputBorder outlineBorder = OutlineInputBorder(
@@ -27,6 +28,7 @@ mixin TextInputWidget {
       style: TextStyle(color: Colors.black),
       decoration: decorationForInputText,
       keyboardType: TextInputType.numberWithOptions(decimal: true),
+      controller: TextInputController.textEditingController,
     ),
   );
 }

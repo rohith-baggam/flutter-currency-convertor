@@ -9,14 +9,14 @@ mixin BodyWidget {
 
   // This the object of input widget
   static Padding inputText = TextInputWidget.textInputWidget;
-
+  static double result = 0;
   static TextButton textButton = ButtonWidget.buttonWidget;
   static Center bodyCenterWidget = Center(
     child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Text('0', style: mainText), // now evaluated at runtime
+        Text(result.toString(), style: mainText), // now evaluated at runtime
         inputText,
         textButton,
       ],
